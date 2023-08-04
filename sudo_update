@@ -1,0 +1,19 @@
+
+sudo apt update 
+sudo apt upgrade -y
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt dist-upgrade
+sudo apt install software-properties-common
+sudo apt install git
+sudo apt install nvidia-detect
+sudo apt install fglrx-driver
+sudo apt install gdebi
+sudo apt install snap
+sudo apt install code
+sudo apt install scapy
+sudo apt update 
+sudo apt upgrade -y
+sudo apt-get update
+sudo apt-get upgrade -y
+timedatectl
