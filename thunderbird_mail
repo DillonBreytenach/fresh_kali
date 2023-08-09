@@ -1,0 +1,24 @@
+https://support.mozilla.org/en-US/kb/installing-thunderbird-linux#
+
+
+1. Go to the Thunderbird's download page ```https://www.thunderbird.net/download/``` and click on the Free Download button.
+
+2. Open a terminal and go to the folder where your download has been saved. For example:
+
+cd ~/Downloads
+
+3. Extract the contents of the downloaded file by typing:
+
+tar xjf thunderbird-*.tar.bz2
+
+4. Move the uncompressed Thunderbird folder to /opt:
+
+mv thunderbird /opt
+
+5. Create a symlink to the Thunderbird executable:
+
+ln -s /opt/thunderbird/thunderbird /usr/local/bin/thunderbird
+
+6. Download a copy of the desktop file:
+
+wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P /usr/local/share/applications 
